@@ -6,14 +6,6 @@
 	"keywords": ["wordpress", "heroku", "php", "postgresql", "apache", "apache2", "nginx"],
 	"addons": ["heroku-postgresql:hobby-dev","newrelic:wayne","sendgrid:starter"],
     "env": {
-		"AWS_ACCESS_KEY_ID": {
-			"description": "Your AWS Access key to grant this application access to a S3 bucket.",
-			"value":"AWS Access Key"
-		},
-       "AWS_SECRET_ACCESS_KEY": {
-         "description": "The secret part of your AWS access key.",
-         "value": "Secret Access Key"
-       },
 	   "AUTH_KEY": {
 		   "description": "Salt for your app",
 		      "generator": "secret"
