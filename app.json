@@ -4,7 +4,7 @@
 	"repository": "https://github.com/technomile/Heroku-WordPress-PostgreSQL",
 	"logo": "http://technomile.github.io/img/cms_buildpack_github.png",
 	"keywords": ["wordpress", "heroku", "php", "postgresql", "apache", "apache2", "nginx"],
-	"addons": ["heroku-postgresql:hobby-dev","newrelic:wayne","sendgrid:starter"],
+	"addons": ["heroku-postgresql:hobby-dev"],
     "env": {
 	   "AUTH_KEY": {
 		   "description": "Salt for your app",
